@@ -1,7 +1,5 @@
-name = ("kanna")
-age = 22
+name = input("Enter your name: " )
+print("hello " + name)
 
-print( name, age )
-
-name =input("Enter your name: ")
-print("Hello", name)
+price = 10
+print(price)
