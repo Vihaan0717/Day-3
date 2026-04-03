@@ -8,3 +8,6 @@ print(price)
 full_name = "John Smith"
 age = 20 # <--integer-->
 is_new = True # <--boolean-->
+
+name = input("What is your name? ")
+print("so its you " + name + " right?")
