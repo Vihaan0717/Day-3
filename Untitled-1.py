@@ -11,3 +11,7 @@ is_new = True # <--boolean-->
 
 name = input("What is your name? ")
 print("so its you " + name + " right?")
+
+name = input("What is your name? ")
+color = input("what is your favorite color? ")
+print(name + " likes " + color)
