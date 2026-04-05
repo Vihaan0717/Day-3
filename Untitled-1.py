@@ -15,3 +15,7 @@ print("so its you " + name + " right?")
 name = input("What is your name? ")
 color = input("what is your favorite color? ")
 print(name + " likes " + color)
+
+name = input("what is your age? ")
+color = input("what is your favorite color? ")
+print(name + " is " + color)
