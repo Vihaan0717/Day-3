@@ -19,3 +19,7 @@ print(name + " likes " + color)
 name = input("what is your age? ")
 color = input("what is your favorite color? ")
 print(name + " is " + color)
+
+birth_year = input("birth year: ")
+age = 2026 - int(birth_year)
+print(age)
