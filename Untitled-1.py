@@ -5,7 +5,6 @@ price = 10
 price = 20 # <--python always compile line by line so its last value should be 20 for price -->
 print(price)
 
-full_name = "John Smith"
 age = 20 # <--integer-->
 is_new = True # <--boolean-->
 
@@ -22,4 +21,11 @@ print(name + " is " + color)
 
 birth_year = input("birth year: ")
 age = 2026 - int(birth_year)
+print(age)
+
+# <--type conversion
+birth_year = input('Birth year: ')
+print(type(birth_year))
+age = 2026 - int(birth_year)
+print(type(age))
 print(age)
