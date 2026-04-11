@@ -29,3 +29,6 @@ print(type(birth_year))
 age = 2026 - int(birth_year)
 print(type(age))
 print(age)
+
+name = input("name =")
+print("hello " + name)
