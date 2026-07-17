@@ -11,6 +11,14 @@ print(name + ' likes ' + fav)
 
 for i in range(3):
     print(i)
+
 born_year=input('what is your born year? ')
 age=2026 - int(born_year)
 print(age)
+
+"""For loop time compli"""
+for i in range(2):
+    for j in range(3):
+        print(i,j)
+
+        
