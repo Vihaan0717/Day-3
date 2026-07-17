@@ -8,3 +8,9 @@ print('my fav food was' + fav_food)
 name=input('what is your name?')
 fav=input('what is your favorite color?')
 print(name + ' likes ' + fav)
+
+for i in range(3):
+    print(i)
+born_year=input('what is your born year? ')
+age=2026 - int(born_year)
+print(age)
