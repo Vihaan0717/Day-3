@@ -1,3 +1,4 @@
+"""These are strings"""
 first='john'
 second='smith'
 message = first +' [' +second+ '] is the coder'
@@ -15,5 +16,26 @@ print(course.find('p'))
 course = 'python for beginners'
 print(course.replace('beginners','absolute beginners'))
 """Lets now make it upper case"""
-course = 'python for begginers'
+course = 'python for beginners'
 print(course.upper())
+"""Lets make it lower case"""
+course ='python for beginners'
+print(course.lower())
+
+"""Lets make the operators"""
+a=15
+b=20
+"""addition"""
+print(a+b)
+"""subtraction"""
+print(a-b)
+"""multi"""
+print(a*b)
+"""division"""
+print(a/b)
+"""Floor"""
+print(a//b)
+"""modules"""
+print(a%b)
+"""power"""
+print(a**b)
