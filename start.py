@@ -39,3 +39,17 @@ print(a//b)
 print(a%b)
 """power"""
 print(a**b)
+
+"""Lets start from if statements"""
+is_hot = True
+is_cold = False
+
+if is_hot:
+    print("Its a hot day")
+    print("Drink plenty of water")
+elif is_cold:
+    print("Its a cold day")
+    print("Wear warm clothes")
+else:
+    print("Its a lovely day")
+    print("Enjoy your day")
