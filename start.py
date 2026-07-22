@@ -53,3 +53,5 @@ elif is_cold:
 else:
     print("Its a lovely day")
     print("Enjoy your day")
+
+""""""
