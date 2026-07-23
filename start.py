@@ -54,4 +54,11 @@ else:
     print("Its a lovely day")
     print("Enjoy your day")
 
-""""""
+"""23-07-26//Lets start with if/elif/else and length of string"""
+name = "J"
+if len(name) < 3:
+    print('Name must be at least 3 characters')
+elif len(name) > 50:
+    print('Name can be a maximum of 50 characters')
+else:
+    print('Name looks good!')

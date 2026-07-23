@@ -1,16 +1,17 @@
-price = 1000000
-has_good_credit = True
+temperature = 30
 
-if has_good_credit:
-    down_payment = 0.1 * price
+if temperature > 30:
+    print('Its a hot day')
 else:
-    down_payment = 0.2 * price
-print(f"Down Payment: {down_payment}")
+    print('Its a cool day')
 
-"""22/7/2026-Problem-AND"""
-has_high_income = True
-has_good_credit = False
-if has_high_income and has_good_credit:
-    print('Eligible for loan')
+""""""
+
+name = "John"
+
+if len(name) < 3:
+    print('Name must be at least 3 characters')
+elif len(name) > 50:
+    print('Name can be maximum of 50 characters')
 else:
-    print('not eligible for loan')
+    print('Name looks good!')
