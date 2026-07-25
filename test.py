@@ -15,3 +15,6 @@ elif len(name) > 50:
     print('Name can be maximum of 50 characters')
 else:
     print('Name looks good!')
+"""math"""
+import math
+print(math.ceil(2.9))
