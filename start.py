@@ -62,3 +62,12 @@ elif len(name) > 50:
     print('Name can be a maximum of 50 characters')
 else:
     print('Name looks good!')
+"""24-07-26//Lets start with weight converter"""
+weight = int(input("Weight: "))
+unit = input("(L)bs or (K)g: ")
+if unit.upper() == "L":
+    converted = weight * 0.45
+    print(f"You are {converted} kilos")
+elif unit.upper() == "K":
+    converted = weight / 0.45
+    print(f"You are {converted} pounds")    
