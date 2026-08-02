@@ -70,4 +70,16 @@ if unit.upper() == "L":
     print(f"You are {converted} kilos")
 elif unit.upper() == "K":
     converted = weight / 0.45
-    print(f"You are {converted} pounds")    
+    print(f"You are {converted} pounds") 
+"""02-08-26 //lets start with a question"""
+"""Question 1(Price of a house is $1M. If buyer has good credit, they need to put down 10% otherwise they need to put down 20%."""
+house_price = 1000000
+has_good_grade = True
+has_bad_grade = False
+
+if has_good_grade:
+    down_payment = 0.1 * house_price
+    print(f'Down payment: {down_payment}')
+else:
+    down_payment = 0.2 * house_price
+    print(f"Down payment: {down_payment}")
