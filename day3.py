@@ -1,9 +1,8 @@
-weight = input("weight: ")
-unit = input("(K)g or (L)g ?")
-if unit.upper == "L":
-    converted = weight * int(0.4)
-    print(f"your rate = {converted}")
+weight = input("Weight is: ")
+unit = input("(L)lb or (K)kg ?")
+if unit.upper() == "L":
+    converted = float(weight) * float(0.453592)
+    print(f"Weight is: {converted:.2f}")
 else:
-    converted = weight * int (2.3)
-    print(f"your rate = {converted}")
-
+    converted = float(weight) * float(2.20462)
+    print(f"Weight is: {converted:.2f}")
