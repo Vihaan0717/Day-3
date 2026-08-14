@@ -83,3 +83,14 @@ if has_good_grade:
 else:
     down_payment = 0.2 * house_price
     print(f"Down payment: {down_payment}")
+
+"""Let's add Weight problem"""
+
+weight = input("Weight is: ")
+unit = input("(L)lbs or (K)kg ?")
+if unit.upper == "L":
+    converted = float(weight) * float(0.45)
+    print(f"Weight is: {converted:.2f}")
+else:
+    converted = float(weight) * float(2.20462)
+    print(f"Weight is: {converted:.2f}")
