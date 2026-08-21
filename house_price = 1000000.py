@@ -10,3 +10,13 @@ else:
     down_payment = 0.2 * price_house
     print(f"Down Payment = {down_payment}")
     
+"""Weight"""
+
+weight = input("weight: ")
+unit = input("(L)lb or (K)kg: ")
+if unit.upper() == "L":
+    converted = float(weight) * float(0.453592)
+    print(f'Weight is: {converted:.2f}')
+else:
+    converted = float(weight) * float(2.20462)
+    print(f"weight is: {converted:.2f}")
